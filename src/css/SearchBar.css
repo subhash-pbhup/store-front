@@ -1,0 +1,37 @@
+        .product-results {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .product-search-item {
+            margin: 8px;
+            padding: 8px;
+            border: 1px solid #ccc;
+            text-align: center;
+            width: 100px;
+        }
+
+        .product-search-item img {
+            margin-bottom: 8px;
+        }
+
+        .product-search-item h3 {
+            font-size: 10px;
+            text-transform: capitalize;
+            margin: 0;
+        }
+
+        .product-search-item p {
+            font-size: 12px;
+            color: #666;
+        }
+
+
+        .sticky-search {
+            position: sticky;      /* Enables sticky positioning */
+            top: 0;                /* Sticks to the top of the page */
+            background-color: #fff; /* Optional: Add background color to prevent overlapping */
+            z-index: 1000;         /* Ensures the search bar is above other content */
+            padding: -1px;         /* Add some padding for aesthetics */
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);  /* Optional: Adds a subtle shadow */
+          }
